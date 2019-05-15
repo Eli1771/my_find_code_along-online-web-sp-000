@@ -1,7 +1,7 @@
 require 'pry'
 
 def my_find(collection)
-  i = o 
+  i = 0
   while i < collection.length do
     if yield(collection[i]) 
       return colection[i]
